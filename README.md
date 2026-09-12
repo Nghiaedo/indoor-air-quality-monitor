@@ -6,14 +6,14 @@ The system displays sensor data on a **16×2 I2C LCD** and uses three LEDs to in
 
 ## Features
 
-* 🌡️ Temperature measurement
-* 💧 Relative humidity measurement
-* 🌫️ Air quality monitoring
-* 📊 AQI measurement
-* 🧪 TVOC measurement
-* 💨 eCO₂ measurement
-* 🖥️ 16×2 I2C LCD display
-* 🟢🟡🔴 Temperature status indicators
+* Temperature measurement
+* Relative humidity measurement
+* Air quality monitoring
+* AQI measurement
+* TVOC measurement
+* eCO₂ measurement
+* 16×2 I2C LCD display
+* Temperature status indicators
 
 ## Hardware
 
@@ -47,11 +47,11 @@ The AHT20, ENS160, and LCD communicate with the Arduino through the **I2C interf
 
 The three LEDs indicate the measured temperature:
 
-| Temperature   | LED       |
-| ------------- | --------- |
-| < 24°C        | 🟢 Green  |
-| 24°C – < 27°C | 🟡 Yellow |
-| ≥ 27°C        | 🔴 Red    |
+| Temperature   | LED    |
+| ------------- | -------|
+| < 24°C        | Green  |
+| 24°C – < 27°C | Yellow |
+| ≥ 27°C        | Red    |
 
 ## Sensors
 
